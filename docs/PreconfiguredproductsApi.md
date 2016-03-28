@@ -10,8 +10,6 @@ Method | HTTP request | Description
 [**update_preconfiguredproducts**](PreconfiguredproductsApi.md#update_preconfiguredproducts) | **PUT** /v/{version}/source/{source}/preconfiguredproducts/ | Update a preconfigured product
 
 
-
-
 # **create_preconfiguredproducts**
 > PreconfiguredProductsInsertResponse create_preconfiguredproducts(preconfigured_product_insert, version, source)
 
@@ -21,7 +19,6 @@ Insert a preconfigured product into your recipe.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::PreconfiguredproductsApi.new
 
 preconfigured_product_insert = GootenApiClient::PreconfiguredProductInsert.new # [PreconfiguredProductInsert] The product to be inserted
@@ -46,7 +43,6 @@ Name | Type | Description  | Notes
  **version** | [**Integer**](.md)| Version of the api being used | 
  **source** | **String**| Description of the source-- ios, android, api | 
 
-
 ### Return type
 
 [**PreconfiguredProductsInsertResponse**](PreconfiguredProductsInsertResponse.md)
@@ -62,7 +58,6 @@ No authorization required
 
 
 
-
 # **delete_preconfiguredproducts**
 > PreconfiguredProductsInsertResponse delete_preconfiguredproducts(version, source, opts)
 
@@ -72,7 +67,6 @@ Delete a preconfigured product from your recipe.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::PreconfiguredproductsApi.new
 
 version = 56 # [Integer] Version of the api being used
@@ -98,7 +92,6 @@ Name | Type | Description  | Notes
  **source** | **String**| Description of the source-- ios, android, api | 
  **sku** | **String**| The preconfigured product&#39;s sku. | [optional] 
 
-
 ### Return type
 
 [**PreconfiguredProductsInsertResponse**](PreconfiguredProductsInsertResponse.md)
@@ -114,7 +107,6 @@ No authorization required
 
 
 
-
 # **get_preconfiguredproducts**
 > PreconfiguredProductsResponse get_preconfiguredproducts(country_code, version, source, opts)
 
@@ -124,7 +116,6 @@ Get a list of your preconfigured products. The products returned are entirely sp
 
 ### Example
 ```ruby
-
 api = GootenApiClient::PreconfiguredproductsApi.new
 
 country_code = "country_code_example" # [String] The country code where it would be shipped to. For example, 'US' or 'CA'
@@ -155,7 +146,6 @@ Name | Type | Description  | Notes
  **language_code** | **String**| Two-character language code, defaults to \&quot;en\&quot; (english) | [optional] 
  **currency_code** | **String**| Three character currency code, defaults to \&quot;USD\&quot; (united states dollar) | [optional] 
 
-
 ### Return type
 
 [**PreconfiguredProductsResponse**](PreconfiguredProductsResponse.md)
@@ -171,7 +161,6 @@ No authorization required
 
 
 
-
 # **update_preconfiguredproducts**
 > PreconfiguredProductsInsertResponse update_preconfiguredproducts(preconfigured_product_insert, version, source)
 
@@ -181,7 +170,6 @@ Update a preconfigured product into your recipe.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::PreconfiguredproductsApi.new
 
 preconfigured_product_insert = GootenApiClient::PreconfiguredProductInsert.new # [PreconfiguredProductInsert] The product to be inserted
@@ -206,7 +194,6 @@ Name | Type | Description  | Notes
  **version** | [**Integer**](.md)| Version of the api being used | 
  **source** | **String**| Description of the source-- ios, android, api | 
 
-
 ### Return type
 
 [**PreconfiguredProductsInsertResponse**](PreconfiguredProductsInsertResponse.md)
@@ -219,8 +206,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

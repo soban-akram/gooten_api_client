@@ -11,4 +11,3 @@ Name | Type | Description | Notes
 **default_currency** | [**Currency**](Currency.md) |  | 
 
 
-

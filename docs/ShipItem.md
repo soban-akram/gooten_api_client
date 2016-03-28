@@ -7,4 +7,3 @@ Name | Type | Description | Notes
 **ship_options** | [**Array&lt;ShipOption&gt;**](ShipOption.md) |  | 
 
 
-

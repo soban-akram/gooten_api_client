@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**get_products**](ProductsApi.md#get_products) | **GET** /v/{version}/source/{source}/products/ | Get a list of products
 
 
-
-
 # **get_products**
 > ProductList get_products(country_code, version, source, opts)
 
@@ -18,7 +16,6 @@ Get a list of products. The products returned may have variants. Products return
 
 ### Example
 ```ruby
-
 api = GootenApiClient::ProductsApi.new
 
 country_code = "country_code_example" # [String] The country code where it would be shipped to. For example, 'US' or 'CA'
@@ -53,7 +50,6 @@ Name | Type | Description  | Notes
  **language_code** | **String**| Two-character language code, defaults to \&quot;en\&quot; (english) | [optional] 
  **currency_code** | **String**| Three character currency code, defaults to \&quot;USD\&quot; (united states dollar) | [optional] 
 
-
 ### Return type
 
 [**ProductList**](ProductList.md)
@@ -66,8 +62,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

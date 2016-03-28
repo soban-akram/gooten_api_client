@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**p_ost_imagevalidation**](ImagevalidationApi.md#p_ost_imagevalidation) | **POST** /imagevalidation/ | Submit image validation
 
 
-
-
 # **p_ost_imagevalidation**
 > ImageValidatorResult p_ost_imagevalidation(req)
 
@@ -18,7 +16,6 @@ Validates an images and returns a validation errors (if available).
 
 ### Example
 ```ruby
-
 api = GootenApiClient::ImagevalidationApi.new
 
 req = GootenApiClient::ImageValidationVm.new # [ImageValidationVm] Image validation request, contains sku and image sizes per space
@@ -37,7 +34,6 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **req** | [**ImageValidationVm**](ImageValidationVm.md)| Image validation request, contains sku and image sizes per space | 
 
-
 ### Return type
 
 [**ImageValidatorResult**](ImageValidatorResult.md)
@@ -50,8 +46,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

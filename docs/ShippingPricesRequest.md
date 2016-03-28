@@ -11,4 +11,3 @@ Name | Type | Description | Notes
 **items** | [**Array&lt;SkuQuantityPair&gt;**](SkuQuantityPair.md) |  | 
 
 
-

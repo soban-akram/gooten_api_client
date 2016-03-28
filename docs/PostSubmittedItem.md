@@ -18,4 +18,3 @@ Name | Type | Description | Notes
 **shipments** | [**Array&lt;Shipment&gt;**](Shipment.md) |  | 
 
 
-

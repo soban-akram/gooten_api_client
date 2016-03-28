@@ -8,4 +8,3 @@ Name | Type | Description | Notes
 **attempted_value** | **String** |  | 
 
 
-

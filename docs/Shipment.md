@@ -8,4 +8,3 @@ Name | Type | Description | Notes
 **ship_carrier_name** | **String** |  | 
 
 
-

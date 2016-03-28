@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**p_ost_priceestimate**](PriceestimateApi.md#p_ost_priceestimate) | **POST** /v/{version}/source/{source}/priceestimate/ | Get an order price
 
 
-
-
 # **p_ost_priceestimate**
 > OrderPriceResult p_ost_priceestimate(order, version, source)
 
@@ -18,7 +16,6 @@ Get the price of an order, including discounts from a coupon.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::PriceestimateApi.new
 
 order = GootenApiClient::Order.new # [Order] Order to potentially be submitted
@@ -43,7 +40,6 @@ Name | Type | Description  | Notes
  **version** | [**Integer**](.md)| Version of the api being used | 
  **source** | **String**| Description of the source-- ios, android, api | 
 
-
 ### Return type
 
 [**OrderPriceResult**](OrderPriceResult.md)
@@ -56,8 +52,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

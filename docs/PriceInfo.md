@@ -10,4 +10,3 @@ Name | Type | Description | Notes
 **currency_digits** | **Integer** |  | 
 
 
-

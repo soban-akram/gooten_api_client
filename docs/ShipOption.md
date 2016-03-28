@@ -14,4 +14,3 @@ Name | Type | Description | Notes
 **est_business_days_til_delivery** | **Integer** |  | 
 
 
-

@@ -11,4 +11,3 @@ Name | Type | Description | Notes
 **spaces** | [**Array&lt;ProductBuildInfoSpace&gt;**](ProductBuildInfoSpace.md) |  | 
 
 
-

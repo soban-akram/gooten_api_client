@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**get_productvariants**](ProductvariantsApi.md#get_productvariants) | **GET** /v/{version}/source/{source}/productvariants/ | Get a list of available product variations. Includes pricing information
 
 
-
-
 # **get_productvariants**
 > ProductVariantResponse get_productvariants(country_code, product_id, version, source, opts)
 
@@ -18,7 +16,6 @@ Get a list of all available product variations, or if one passes in a specific p
 
 ### Example
 ```ruby
-
 api = GootenApiClient::ProductvariantsApi.new
 
 country_code = "country_code_example" # [String] The country code the order would be shipped to. For example, 'US' or 'FR'
@@ -56,7 +53,6 @@ Name | Type | Description  | Notes
  **language_code** | **String**| Two-character language code, defaults to \&quot;en\&quot; (english) | [optional] 
  **currency_code** | **String**| Three character currency code, defaults to \&quot;USD\&quot; (united states dollar) | [optional] 
 
-
 ### Return type
 
 [**ProductVariantResponse**](ProductVariantResponse.md)
@@ -69,8 +65,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

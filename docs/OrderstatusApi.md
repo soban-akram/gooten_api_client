@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**p_ost_orderstatus**](OrderstatusApi.md#p_ost_orderstatus) | **POST** /orderstatus/ | Update an order status
 
 
-
-
 # **p_ost_orderstatus**
 > OrderStatusUpdateResult p_ost_orderstatus(partner_billing_key, id, order_status_name)
 
@@ -18,7 +16,6 @@ Update status of each order item.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::OrderstatusApi.new
 
 partner_billing_key = "partner_billing_key_example" # [String] Partner billing key
@@ -43,7 +40,6 @@ Name | Type | Description  | Notes
  **id** | **String**| Order Id | 
  **order_status_name** | **String**| Order status name for update | 
 
-
 ### Return type
 
 [**OrderStatusUpdateResult**](OrderStatusUpdateResult.md)
@@ -56,8 +52,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

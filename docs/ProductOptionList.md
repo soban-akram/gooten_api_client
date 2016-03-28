@@ -7,4 +7,3 @@ Name | Type | Description | Notes
 **values** | [**Array&lt;ProductOption&gt;**](ProductOption.md) |  | 
 
 
-

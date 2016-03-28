@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**get_userinfo**](UserinfoApi.md#get_userinfo) | **GET** /userinfo/ | Get the user&#39;s language code and country based upon IP
 
 
-
-
 # **get_userinfo**
 > UserInfo get_userinfo(opts)
 
@@ -18,7 +16,6 @@ IP-based user info lookup
 
 ### Example
 ```ruby
-
 api = GootenApiClient::UserinfoApi.new
 
 opts = { 
@@ -38,7 +35,6 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **language_code** | **String**| Two-character language code, if known at the time. | [optional] 
 
-
 ### Return type
 
 [**UserInfo**](UserInfo.md)
@@ -51,8 +47,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

@@ -11,4 +11,3 @@ Name | Type | Description | Notes
 **partner_price_info** | [**ProductPriceInfo**](ProductPriceInfo.md) |  | [optional] 
 
 
-

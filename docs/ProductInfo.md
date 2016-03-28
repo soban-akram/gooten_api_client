@@ -9,4 +9,3 @@ Name | Type | Description | Notes
 **index** | **Integer** | The suggested ordering of the content about the product. | 
 
 
-

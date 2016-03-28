@@ -10,4 +10,3 @@ Name | Type | Description | Notes
 **image_types** | **Array&lt;String&gt;** |  | 
 
 
-

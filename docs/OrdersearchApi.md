@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**g_et_ordersearch**](OrdersearchApi.md#g_et_ordersearch) | **GET** /ordersearch/ | Search an orders
 
 
-
-
 # **g_et_ordersearch**
 > SubmittedOrderList g_et_ordersearch(partner_billing_key, opts)
 
@@ -18,7 +16,6 @@ Search through the orders and return information about orders that match search 
 
 ### Example
 ```ruby
-
 api = GootenApiClient::OrdersearchApi.new
 
 partner_billing_key = "partner_billing_key_example" # [String] Partner billing key
@@ -59,7 +56,6 @@ Name | Type | Description  | Notes
  **page_size** | [**Integer**](.md)| How many items to return in reponse. | [optional] 
  **page** | [**Integer**](.md)| Page number, how many items to skip. | [optional] 
 
-
 ### Return type
 
 [**SubmittedOrderList**](SubmittedOrderList.md)
@@ -72,8 +68,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

@@ -7,4 +7,3 @@ Name | Type | Description | Notes
 **images** | [**Array&lt;ImageSizeVm&gt;**](ImageSizeVm.md) |  | 
 
 
-

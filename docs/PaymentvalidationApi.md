@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**paymentvalidation**](PaymentvalidationApi.md#paymentvalidation) | **GET** /paymentvalidation/ | Submit payment validation for PayPal
 
 
-
-
 # **paymentvalidation**
 > PaymentValidationResponse paymentvalidation(order_id, pay_pal_key)
 
@@ -18,7 +16,6 @@ Submit payment validation for PayPal
 
 ### Example
 ```ruby
-
 api = GootenApiClient::PaymentvalidationApi.new
 
 order_id = "order_id_example" # [String] Order Id returned from orders/POST
@@ -40,7 +37,6 @@ Name | Type | Description  | Notes
  **order_id** | **String**| Order Id returned from orders/POST | 
  **pay_pal_key** | **String**| The PayPal key returned from the Mobile SDK | 
 
-
 ### Return type
 
 [**PaymentValidationResponse**](PaymentValidationResponse.md)
@@ -53,8 +49,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

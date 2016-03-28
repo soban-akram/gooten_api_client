@@ -21,4 +21,3 @@ Name | Type | Description | Notes
 **default_text** | **String** |  | 
 
 
-

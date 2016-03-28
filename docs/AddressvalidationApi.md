@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**addressvalidation**](AddressvalidationApi.md#addressvalidation) | **GET** /addressvalidation/ | Validates an address and returns a suggested address (if available) and a validation score.
 
 
-
-
 # **addressvalidation**
 > Result addressvalidation(opts)
 
@@ -18,7 +16,6 @@ Validates an address and returns a suggested address (if available) and a valida
 
 ### Example
 ```ruby
-
 api = GootenApiClient::AddressvalidationApi.new
 
 opts = { 
@@ -48,7 +45,6 @@ Name | Type | Description  | Notes
  **postal_code** | **String**| Address postal code/zip. | [optional] 
  **country_code** | **String**| Address country code. | [optional] 
 
-
 ### Return type
 
 [**Result**](Result.md)
@@ -61,8 +57,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

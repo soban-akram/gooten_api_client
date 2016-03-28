@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**get_shippriceestimate**](ShippriceestimateApi.md#get_shippriceestimate) | **GET** /shippriceestimate/ | Get a baseline ship price for an item
 
 
-
-
 # **get_shippriceestimate**
 > ShipEstimate get_shippriceestimate(product_id, country_code, opts)
 
@@ -18,7 +16,6 @@ Price returned is an estimate which may or may not be realistically attainable.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::ShippriceestimateApi.new
 
 product_id = 56 # [Integer] Product ID
@@ -44,7 +41,6 @@ Name | Type | Description  | Notes
  **country_code** | **String**| Country Code it will be shipped to | 
  **currency_code** | **String**| Currency Code the estimate should be in. Defaults to USD. | [optional] 
 
-
 ### Return type
 
 [**ShipEstimate**](ShipEstimate.md)
@@ -57,8 +53,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

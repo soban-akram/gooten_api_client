@@ -8,8 +8,6 @@ Method | HTTP request | Description
 [**p_ost_orders**](OrdersApi.md#p_ost_orders) | **POST** /v/{version}/source/{source}/orders/ | Submit an order
 
 
-
-
 # **g_et_orders**
 > PostSubmittedOrder g_et_orders(id, version, source, opts)
 
@@ -19,7 +17,6 @@ Gets basic information about an order.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::OrdersApi.new
 
 id = "id_example" # [String] Order Id
@@ -48,7 +45,6 @@ Name | Type | Description  | Notes
  **source** | **String**| Description of the source-- ios, android, api | 
  **language_code** | **String**| Resultant info language. Defaults to &#39;en&#39;. | [optional] 
 
-
 ### Return type
 
 [**PostSubmittedOrder**](PostSubmittedOrder.md)
@@ -64,7 +60,6 @@ No authorization required
 
 
 
-
 # **p_ost_orders**
 > OrderResult p_ost_orders(order, version, source)
 
@@ -74,7 +69,6 @@ Places an order into the system. An order can be submitted as PrePayment (in ord
 
 ### Example
 ```ruby
-
 api = GootenApiClient::OrdersApi.new
 
 order = GootenApiClient::PostOrder.new # [PostOrder] Order to be submitted
@@ -99,7 +93,6 @@ Name | Type | Description  | Notes
  **version** | [**Integer**](.md)| Version of the api being used | 
  **source** | **String**| Description of the source-- ios, android, api | 
 
-
 ### Return type
 
 [**OrderResult**](OrderResult.md)
@@ -112,8 +105,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

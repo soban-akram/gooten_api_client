@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**p_ost_shippingprices**](ShippingpricesApi.md#p_ost_shippingprices) | **POST** /shippingprices/ | Get a list of shipping options and prices for items
 
 
-
-
 # **p_ost_shippingprices**
 > ShippingPricesResult p_ost_shippingprices(shipping_prices_request, opts)
 
@@ -18,7 +16,6 @@ Get a list of shipping options and prices for items.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::ShippingpricesApi.new
 
 shipping_prices_request = GootenApiClient::ShippingPricesRequest.new # [ShippingPricesRequest] DTO with required information
@@ -41,7 +38,6 @@ Name | Type | Description  | Notes
  **shipping_prices_request** | [**ShippingPricesRequest**](ShippingPricesRequest.md)| DTO with required information | 
  **partner_billing_key** | **String**| Partner billing key | [optional] 
 
-
 ### Return type
 
 [**ShippingPricesResult**](ShippingPricesResult.md)
@@ -54,8 +50,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

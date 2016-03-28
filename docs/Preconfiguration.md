@@ -7,4 +7,3 @@ Name | Type | Description | Notes
 **url** | **String** | The url of the image to be placed in the referenced layer. | 
 
 
-

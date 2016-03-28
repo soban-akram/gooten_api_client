@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**p_ost_productpreview**](ProductpreviewApi.md#p_ost_productpreview) | **POST** /productpreview/ | Submit an image (or images) to be rendered into a product preview.
 
 
-
-
 # **p_ost_productpreview**
 > ProductPreviewResponse p_ost_productpreview(product_preview_request)
 
@@ -18,7 +16,6 @@ Submit an image (or images) to be rendered into a product preview.
 
 ### Example
 ```ruby
-
 api = GootenApiClient::ProductpreviewApi.new
 
 product_preview_request = GootenApiClient::ProductPreviewRequest.new # [ProductPreviewRequest] Request detailing the operation needing completed
@@ -37,7 +34,6 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **product_preview_request** | [**ProductPreviewRequest**](ProductPreviewRequest.md)| Request detailing the operation needing completed | 
 
-
 ### Return type
 
 [**ProductPreviewResponse**](ProductPreviewResponse.md)
@@ -50,8 +46,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

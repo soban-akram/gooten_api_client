@@ -9,4 +9,3 @@ Name | Type | Description | Notes
 **proposed_address** | [**Address**](Address.md) |  | 
 
 
-

@@ -10,4 +10,3 @@ Name | Type | Description | Notes
 **max_width** | **Integer** | Max width of the resultant image. Defaults to 500px | 
 
 
-

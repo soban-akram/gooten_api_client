@@ -7,4 +7,3 @@ Name | Type | Description | Notes
 **image** | [**ProductPreviewImageSpec**](ProductPreviewImageSpec.md) |  | 
 
 
-

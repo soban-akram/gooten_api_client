@@ -11,4 +11,3 @@ Name | Type | Description | Notes
 **images** | [**Array&lt;PreconfiguredProductImage&gt;**](PreconfiguredProductImage.md) | Product images. Can contain large and small images for web, mobile, etc | 
 
 
-

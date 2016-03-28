@@ -7,8 +7,6 @@ Method | HTTP request | Description
 [**get_language_text**](LanguagesApi.md#get_language_text) | **GET** /languages/ | Get text in a specified language
 
 
-
-
 # **get_language_text**
 > LanguageDictionary get_language_text(language_code, opts)
 
@@ -18,7 +16,6 @@ Get text in a specified language
 
 ### Example
 ```ruby
-
 api = GootenApiClient::LanguagesApi.new
 
 language_code = "language_code_example" # [String] Two-character language code, like \"en\" (english)
@@ -41,7 +38,6 @@ Name | Type | Description  | Notes
  **language_code** | **String**| Two-character language code, like \&quot;en\&quot; (english) | 
  **key** | **String**| A string used to query the language dictionary for specific values within a category. | [optional] 
 
-
 ### Return type
 
 [**LanguageDictionary**](LanguageDictionary.md)
@@ -54,8 +50,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-
 
 
 

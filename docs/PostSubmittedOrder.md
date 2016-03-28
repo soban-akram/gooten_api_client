@@ -16,4 +16,3 @@ Name | Type | Description | Notes
 **meta** | [**Meta**](Meta.md) | An optional Map&lt;string,string&gt; of misc properties. | 
 
 
-
