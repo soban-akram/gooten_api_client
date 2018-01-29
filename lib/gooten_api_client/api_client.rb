@@ -27,12 +27,15 @@ module GootenApiClient
     # @return [Hash]
     attr_accessor :default_headers
 
-    def initialize(config = Configuration.default)
+    def initialize(recipe_id, config = Configuration.default)
       @config = config
       @user_agent = "ruby-swagger-#{VERSION}"
       @default_headers = {
         'Content-Type' => "application/json",
         'User-Agent' => @user_agent
+      }
+      @default_params = {
+          'recipeid' => recipe_id
       }
     end
 
@@ -72,7 +75,7 @@ module GootenApiClient
       http_method = http_method.to_sym.downcase
 
       header_params = @default_headers.merge(opts[:header_params] || {})
-      query_params = opts[:query_params] || {}
+      query_params = @default_params.merge(opts[:query_params]) || {}
       form_params = opts[:form_params] || {}
 
       
