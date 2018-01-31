@@ -41,7 +41,7 @@ module GootenApiClient
     attr_accessor :info
 
     # Product images. Note that this contains large and small images for web, mobile, etc
-    attr_accessor :product_image
+    attr_accessor :images
 
     attr_accessor :price_info
 
@@ -73,7 +73,7 @@ module GootenApiClient
         
         :'info' => :'Info',
         
-        :'product_image' => :'ProductImage',
+        :'images' => :'Images',
         
         :'price_info' => :'PriceInfo',
         
@@ -97,7 +97,7 @@ module GootenApiClient
         :'max_zoom' => :'Integer',
         :'retail_price' => :'ProductPriceInfo',
         :'info' => :'Array<ProductInfo>',
-        :'product_image' => :'Array<ProductImage>',
+        :'images' => :'Array<ProductImage>',
         :'price_info' => :'ProductPriceInfo',
         :'partner_price_info' => :'ProductPriceInfo',
         :'categories' => :'Array<Category>'
@@ -154,9 +154,9 @@ module GootenApiClient
         end
       end
       
-      if attributes[:'ProductImage']
+      if attributes[:'Images']
         if (value = attributes[:'ProductImage']).is_a?(Array)
-          self.product_image = value
+          self.images = value
         end
       end
       
@@ -190,7 +190,7 @@ module GootenApiClient
           max_zoom == o.max_zoom &&
           retail_price == o.retail_price &&
           info == o.info &&
-          product_image == o.product_image &&
+          images == o.images &&
           price_info == o.price_info &&
           partner_price_info == o.partner_price_info &&
           categories == o.categories
@@ -203,7 +203,7 @@ module GootenApiClient
 
     # Calculate hash code according to all attributes.
     def hash
-      [id, u_id, name, short_description, has_available_product_variants, has_product_templates, featured_index, max_zoom, retail_price, info, product_image, price_info, partner_price_info, categories].hash
+      [id, u_id, name, short_description, has_available_product_variants, has_product_templates, featured_index, max_zoom, retail_price, info, images, price_info, partner_price_info, categories].hash
     end
 
     # build the object from hash
